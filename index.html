@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    
+    <div class="main-container">
+        <section class="message">
+            <h1>Get the best education</h1>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque perspiciatis facilis vitae aliquam, exercitationem nesciunt at modi culpa eos molestias itaque enim id minus consequuntur blanditiis ducimus beatae quisquam perferendis! </p>
+        </section>
+    
+        <section>
+            <div class="offer"><span>Try it free 7 days</span> then $18/mo. there after</div>
+            <div class="form-container">
+            <form action="">
+    
+                <input id="firstNameInput" type="text" placeholder="First Name">
+                <div id="firstNameError" class="error-container"> </div>
+    
+                <input id="lastNameInput" type="text" placeholder="Last Name">
+                <div id="lastNameError" class="error-container"></div>
+        
+                <input id="emailInput" type="email" placeholder="Email Address">
+                <div id="emailAddressError" class="error-container"></div>
+        
+                <input id="passInput" type="password" placeholder="Password">
+                <div id="passError" class="error-container"></div>
+        
+                <input id="button" type="submit" value="Claim your free trial ">
+    
+            </form>
+                <p class="terms">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+            </div>
+        </section>
+    </div>
+
+    <script src="./js/validation.js"></script>
+</body>
+</html>
